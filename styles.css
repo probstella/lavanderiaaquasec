@@ -252,31 +252,26 @@ header {
 
 .services-container .services li a:hover {
     color: #693bff;
-}
-
-@media (max-width: 768px) {
+}
+    @media (max-width: 768px) {
     header {
         flex-direction: column;
         text-align: center;
     }
-
     .logo-container .logo {
-        margin-left: 0;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
     }
-
     .services-container {
-        margin-right: 0;
-        margin-top: 10px;
+        margin: 10px 0;
     }
-
     .services-container .services {
         flex-direction: column;
-        margin-top: 10px;
+        align-items: center;
     }
-
     .services-container .services li {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 5px 0;
     }
 }
 
