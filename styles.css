@@ -57,7 +57,7 @@ body {
     width: 110%;
     height: auto;
     border-radius: 10px;
-    margin-left: -5%;
+    margin-left: 10%;
 }
 @media (max-width: 768px) {
     .hero-content {
@@ -76,7 +76,6 @@ body {
     .hero-image img {
         width: 100%;
         height: auto;
-        margin-left: 0;
     }
 }
 .bolhas {
